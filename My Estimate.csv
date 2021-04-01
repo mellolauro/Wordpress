@@ -1,0 +1,17 @@
+ÿGroup hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),appservices,Amazon Simple Email Service (SES),0,0.24,2.88,USD,Mensagens de e-mail enviadas do EC2 ( por mês)
+My Estimate,US East (N. Virginia),Storage,Amazon Elastic File System (EFS),0,6,72.00,USD,Dados armazenados no armazenamento padrão (20 GB por mês)
+My Estimate,US East (N. Virginia),Storage,S3 Standard,0,1.15,13.80,USD,Armazenamento S3 Standard (50 GB per mês)
+My Estimate,US East (N. Virginia),Storage,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (N. Virginia),Computer Web Node,Amazon EC2,0,42.42,509.04,USD,"Sistema operacional (Linux), Quantidade (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Quantidade de armazenamento (30 GB), Tipo de instância (c5.large)"
+My Estimate,US East (N. Virginia),ELB Load Balancer,Network Load Balancer,0,41.61,499.32,USD,"Número de Network Load Balancers (2), Bytes processados por NLB para TCP (1 GB per hora), Número médio de novas conexões TCP (1 por segundo)"
+My Estimate,US East (N. Virginia),Admin Cros Node,Amazon EC2,0,22.05,264.60,USD,"Sistema operacional (Linux), Quantidade (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Quantidade de armazenamento (30 GB), Tipo de instância (t3.medium)"
+My Estimate,US East (N. Virginia),Database,Amazon ElastiCache,0,74.46,893.52,USD,( 3 instances of type Redis  Standard  cache t3.small  OnDemand )
+My Estimate,US East (N. Virginia),Varnish,Amazon EC2,0,41.11,493.32,USD,"Sistema operacional (Linux), Quantidade (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Quantidade de armazenamento (30 GB), Tipo de instância (t3.large)"
+My Estimate,US East (N. Virginia),Database,Amazon RDS for MySQL,0,53.09,637.08,USD,"Armazenamento para cada instância do RDS (SSD de uso geral (gp2)), Quantidade de armazenamento (30 GB), Quantidade (1), Tipo de instância (db.t3.medium), Opção de implantação (Single-AZ), Modelo de definição de preço (OnDemand)"
+My Estimate,US East (N. Virginia),storage,Amazon Elastic Block Store (EBS),0,8.99,107.88,USD,"Número de instâncias (1), Duração média de cada execução da instância (730 horas por mês), Quantidade de armazenamento (30 GB), Frequência de snapshots (Duas vezes ao dia), Quantidade alterada por snapshot (3 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
